@@ -1,3 +1,4 @@
+```
 StrokeSeg-BHSD/
 ├── data/
 │   ├── raw/
@@ -27,3 +28,4 @@ StrokeSeg-BHSD/
 ├── .gitignore
 ├── README.md
 └── requirements.txt
+```
