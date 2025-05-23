@@ -1,0 +1,27 @@
+# Python
+__pycache__/
+*.pyc
+
+# Env
+.env
+.venv/
+*.egg-info/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Data
+data/raw/
+data/processed/
+data/logs/
+*.nii.gz
+*.pt
+*.csv
+
+# IDE
+.vscode/
+.idea/

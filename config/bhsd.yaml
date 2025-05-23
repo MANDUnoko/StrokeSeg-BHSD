@@ -1,0 +1,22 @@
+dataset: BHSD
+input_dir: data/raw
+output_dir: data/processed
+
+spacings:
+  target: [5.0, 1.0, 1.0]
+shape: [140, 250, 250]
+
+window:
+  - [0, 150]
+  - [0, 200]
+
+enhancements:
+  clahe:
+    enable: true
+    clipLimit: 2.0
+  gamma:
+    enable: false
+
+normalization: zscore
+save_format: pt
+channels_last: false

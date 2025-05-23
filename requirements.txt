@@ -1,0 +1,9 @@
+numpy
+pandas
+scipy
+nibabel
+SimpleITK
+monai
+matplotlib
+pyyaml
+tqdm
